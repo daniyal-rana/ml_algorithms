@@ -23,7 +23,7 @@ class Linear_Regression:
 
             #update parameters
             self.weights = self.weights - (self.learning_rate * dw)
-            self.bias = self.bias - np.dot(self.learning_rate , db)
+            self.bias = self.bias - (self.learning_rate * db)
 
 
 
